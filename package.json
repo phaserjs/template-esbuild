@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "dev": "node esbuild/dev.server.js -w",
-        "build": "node esbuild/build.js"
+        "build": "node esbuild/build.prod.js"
     },
     "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
     "repository": {

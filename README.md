@@ -79,7 +79,7 @@ In order to deploy your game, you will need to upload *all* of the contents of t
 
 ### esbuild
 
-If you want to customize your build, such as adding plugin (i.e. for loading CSS or fonts), you can modify the `esbuild/build.js` and `esbuild/dev.server.js` files for cross-project changes, or you can modify and/or create new configuration files and target them in specific npm tasks inside of `package.json`. Please see the [esbuild documentation](https://esbuild.github.io/api/) for more information.
+If you want to customize your build, such as adding plugin (i.e. for loading CSS or fonts), you can modify the `esbuild/build.prod.js` and `esbuild/dev.server.js` files for cross-project changes, or you can modify and/or create new configuration files and target them in specific npm tasks inside of `package.json`. Please see the [esbuild documentation](https://esbuild.github.io/api/) for more information.
 
 ## Join the Phaser Community!
 
