@@ -1,0 +1,24 @@
+{
+  "name": "template-esbuild",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild/dev.server.js -w",
+    "build": "node esbuild/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.70.0"
+  },
+  "devDependencies": {
+    "@jgoz/esbuild-plugin-livereload": "^2.0.3",
+    "esbuild": "^0.19.12",
+    "esbuild-plugin-clean": "^1.0.1",
+    "esbuild-plugin-copy": "^2.1.1",
+    "esbuild-serve": "^1.0.1"
+  }
+}
