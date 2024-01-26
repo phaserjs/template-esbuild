@@ -1,6 +1,7 @@
 import { build } from 'esbuild';
 import clean from 'esbuild-plugin-clean';
 import copy from 'esbuild-plugin-copy';
+import inlineImage from 'esbuild-plugin-inline-image';
 
 let msgPhaser = {
     name: 'msg-phaser',
@@ -26,6 +27,9 @@ const builder = async () => {
         plugins: [
             clean({
                 patterns: ['./dist/*'],
+            }),
+            inlineImage({
+                namespace: 'assets',
             }),
             copy({
                 assets: [
