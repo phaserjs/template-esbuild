@@ -1,7 +1,7 @@
 {
     "name": "template-esbuild",
     "description": "A Phaser 3 template using esbuild.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "index.js",
     "type": "module",
     "scripts": {

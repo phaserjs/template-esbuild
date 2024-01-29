@@ -26,7 +26,7 @@ const builder = async () => {
         outfile: './dist/bundle.js',
         plugins: [
             clean({
-                patterns: ['./dist/*'],
+                patterns: ['./dist/*', './public/bundle.min.js'],
             }),
             inlineImage({
                 namespace: 'assets',
@@ -35,6 +35,8 @@ const builder = async () => {
                 assets: [
                     { from: './public/index.html', to: './' },
                     { from: './public/style.css', to: './' },
+                    { from: './public/favicon.ico', to: './' },
+                    { from: './public/favicon.png', to: './' },
                     { from: './public/assets/**/*', to: './assets/' }
                 ],
             }),
