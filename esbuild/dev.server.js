@@ -6,7 +6,7 @@ esbuildServe(
         logLevel: "info",
         entryPoints: ["src/main.js"],
         bundle: true,
-        outfile: "public/bundle.js",
+        outfile: "public/bundle.min.js",
         plugins: [ inlineImage() ]
     },
     { root: "public", port: 8080 },
