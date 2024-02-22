@@ -6,8 +6,8 @@ This is a Phaser 3 project template that uses esbuild for bundling. It supports 
 
 This template has been updated for:
 
-- [Phaser 3.70.0](https://github.com/phaserjs/phaser)
-- [esbuild 0.19.12](https://github.com/evanw/esbuild)
+- [Phaser 3.80.0](https://github.com/phaserjs/phaser)
+- [esbuild 0.20.1](https://github.com/evanw/esbuild)
 
 ![screenshot](screenshot.png)
 
