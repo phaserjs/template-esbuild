@@ -1,34 +1,34 @@
 {
-    "name": "template-esbuild",
-    "description": "A Phaser 3 template using esbuild.",
-    "version": "1.3.0",
-    "main": "index.js",
-    "type": "module",
-    "scripts": {
-        "dev": "node log.js dev & node esbuild/dev.server.js -w",
-        "build": "node log.js build & node esbuild/build.prod.js",
-        "dev-nolog": "node esbuild/dev.server.js -w",
-        "build-nolog": "node esbuild/build.prod.js"
-    },
-    "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/phaserjs/template-esbuild.git"
-    },
-    "bugs": {
-        "url": "https://github.com/phaserjs/template-esbuild/issues"
-    },
-    "homepage": "https://github.com/phaserjs/template-esbuild#readme",
-    "license": "MIT",
-    "dependencies": {
-        "phaser": "^3.90.0"
-    },
-    "devDependencies": {
-        "@jgoz/esbuild-plugin-livereload": "2.1.3",
-        "esbuild": "0.25.2",
-        "esbuild-plugin-clean": "^1.0.1",
-        "esbuild-plugin-copy": "^2.1.1",
-        "esbuild-plugin-inline-image": "^0.0.9",
-        "esbuild-serve": "^1.0.1"
-    }
+  "name": "template-esbuild",
+  "description": "A Phaser 3 template using esbuild.",
+  "version": "1.3.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node log.js dev & node esbuild/dev.server.js -w",
+    "build": "node log.js build & node esbuild/build.prod.js",
+    "dev-nolog": "node esbuild/dev.server.js -w",
+    "build-nolog": "node esbuild/build.prod.js"
+  },
+  "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaserjs/template-esbuild.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phaserjs/template-esbuild/issues"
+  },
+  "homepage": "https://github.com/phaserjs/template-esbuild#readme",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "4.0.0"
+  },
+  "devDependencies": {
+    "@jgoz/esbuild-plugin-livereload": "2.1.3",
+    "esbuild": "0.25.2",
+    "esbuild-plugin-clean": "^1.0.1",
+    "esbuild-plugin-copy": "^2.1.1",
+    "esbuild-plugin-inline-image": "^0.0.9",
+    "esbuild-serve": "^1.0.1"
+  }
 }
